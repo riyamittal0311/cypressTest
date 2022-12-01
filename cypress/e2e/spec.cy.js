@@ -21,11 +21,6 @@ describe('visit login page', () => {
     cy.get('button[name=submit]').contains('Login')
   })
 
-  // it('click login',()=>{
-  //   cy.get('#1-email').type('swati.pandey@rsystems.com')
-  //   cy.get('input[name="password"]').type('Password1')
-  //   cy.get('button[name=submit]').click()
-  // })
   
   
 })
